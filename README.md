@@ -9,7 +9,7 @@ This express application uses self signed SSL certificates but currently has htt
 
 ## PART I: Download & Build on Auro OS
 
-## Method 1: From github
+## From github
 
 ### 1) Clone the repository to /var/www/ folder, install node packages and verify routes locally
 

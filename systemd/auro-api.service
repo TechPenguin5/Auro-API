@@ -1,0 +1,13 @@
+[Unit]
+Description=Auro API
+After=syslog.target network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=~/auro-api.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target

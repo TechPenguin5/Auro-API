@@ -1,0 +1,30 @@
+{
+  "name": "auro-api",
+  "version": "1.0.0",
+  "description": "Backend logic for Auro systems and services",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "dev:https": "nodemon src/index.js --key sslcert/server.key --cert sslcert/server.cert",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "EPL-2.0",
+  "dependencies": {
+    "bonjour": "^3.5.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "macaddress": "^0.5.3",
+    "network-list": "^1.1.5",
+    "shelljs": "^0.8.5",
+    "systemd-status": "^1.2.0",
+    "systeminformation": "^5.12.2",
+    "yargs": "17.2.1"
+  },
+  "devDependencies": {
+    "mkdirp": "1.0.4",
+    "node-fetch": "2.6.6",
+    "nodemon": "2.0.14",
+    "rimraf": "3.0.2"
+  }
+}
